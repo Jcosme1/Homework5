@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class PoemTester2 {
     public static void main(String[] args) {
 
-
         try{
             Scanner scan = new Scanner(new FileReader("src/poem2.txt"));
             while(scan.hasNextLine()){
